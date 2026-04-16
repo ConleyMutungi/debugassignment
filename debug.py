@@ -10,7 +10,7 @@ data = [1, 3, 4, 6, 7, 9, 10]
 cleaned = clean_database(data)
 print(f"Final List: {cleaned}")
 # EXPECTED: [4, 6, 10]
-# ACTUAL: [3, 4, 6, 9, 10]
+# ACTUAL: [ 4, 6, 10]
 
 # Adding a slicer in line 4 creates a copy of the code therefore preventing the skipping of numbers as the code is running
 
